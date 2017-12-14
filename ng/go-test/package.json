@@ -1,0 +1,31 @@
+{
+	"name": "@1backend/user-nj6dbwjq04tl-go-test-ng",
+	"version": "0.0.1",
+	"description": "Clients for 1Backend services of user-nj6dbwjq04tl",
+	"main": "./lib/index.js",
+	"typings": "./lib/index.d.ts",
+	"scripts": {
+	  "prepare": "npm run build",
+	  "build": "tsc"
+	},
+	"keywords": [
+	  "typescript",
+	  "node"
+	],
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/1backend/user-nj6dbwjq04tl.git"
+	},
+	"dependencies": {
+	  "@1backend/ng-client": "*"
+	},
+	"devDependencies": {
+		"@angular/cli": "^1.5.3",
+		"@angular/compiler-cli": "^5.0.0",
+		"typescript": "~2.4.2",
+		"@angular/core": "^5.0.0",
+		"@angular/common": "^5.0.0",
+		"rxjs": "^5.5.2",
+		"zone.js": "^0.8.14"
+	}
+  }
